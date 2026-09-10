@@ -1,0 +1,12 @@
+{
+  "sandbox": {
+    "enabled": true,
+    "network": {
+      "allowedDomains": [
+        "hn.algolia.com",
+        "remotive.com",
+        "remoteok.com"
+      ]
+    }
+  }
+}
