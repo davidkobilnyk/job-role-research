@@ -1,0 +1,85 @@
+company,category,slugs
+Sigma Computing,embedded_analytics_bi,sigmacomputing|sigma
+Hex,embedded_analytics_bi,hex|hextechnologies
+Omni,embedded_analytics_bi,omni|omnianalytics|exploreomni
+Metabase,embedded_analytics_bi,metabase
+Cube,embedded_analytics_bi,cube|cubedev|cube-dev
+Preset,embedded_analytics_bi,preset|presetio
+Lightdash,embedded_analytics_bi,lightdash
+ThoughtSpot,embedded_analytics_bi,thoughtspot
+Explo,embedded_analytics_bi,explo
+Domo,embedded_analytics_bi,domo
+GoodData,embedded_analytics_bi,gooddata
+Quill,embedded_analytics_bi,quill|quillco
+Seeq,embedded_analytics_bi,seeq
+Sisense,embedded_analytics_bi,sisense
+dbt Labs,data_tooling,dbtlabsinc|dbtlabs
+Fivetran,data_tooling,fivetran
+Airbyte,data_tooling,airbyte
+Dagster Labs,data_tooling,dagsterlabs|dagster|elementl
+Prefect,data_tooling,prefect
+Astronomer,data_tooling,astronomer
+MotherDuck,data_tooling,motherduck
+ClickHouse,data_tooling,clickhouse
+Tobiko Data,data_tooling,tobikodata|tobiko
+Hightouch,data_tooling,hightouch
+Census,data_tooling,census|getcensus
+Monte Carlo,data_tooling,montecarlodata|montecarlo
+Great Expectations,data_tooling,greatexpectations|superconductive
+Estuary,data_tooling,estuary
+Braintrust,llmops_evals,braintrust|braintrustdata
+Arize AI,llmops_evals,arizeai|arize
+LangChain,llmops_evals,langchain
+Galileo,llmops_evals,galileo|rungalileo
+Patronus AI,llmops_evals,patronusai|patronus
+Weights & Biases,llmops_evals,wandb
+Honeycomb,llmops_evals,honeycomb
+Grafana Labs,llmops_evals,grafanalabs
+Datadog,llmops_evals,datadog
+Chronosphere,llmops_evals,chronosphere
+Reducto,document_intelligence,reducto
+Extend,document_intelligence,extend|extendai
+Unstructured,document_intelligence,unstructured|unstructuredio
+LlamaIndex,document_intelligence,llamaindex
+Instabase,document_intelligence,instabase
+Hyperscience,document_intelligence,hyperscience
+Kadoa,document_intelligence,kadoa
+Sensible,document_intelligence,sensible
+Rossum,document_intelligence,rossum
+GitLab,remote_native_saas,gitlab
+Zapier,remote_native_saas,zapier
+PostHog,remote_native_saas,posthog
+Mixpanel,remote_native_saas,mixpanel
+Amplitude,remote_native_saas,amplitude
+Retool,remote_native_saas,retool
+Airtable,remote_native_saas,airtable
+Pendo,remote_native_saas,pendo
+Help Scout,remote_native_saas,helpscout
+Close,remote_native_saas,close|closeio
+Webflow,remote_native_saas,webflow
+Calendly,remote_native_saas,calendly
+Datavant,healthcare_data,datavant
+Komodo Health,healthcare_data,komodohealth
+Flatiron Health,healthcare_data,flatironhealth
+Zus Health,healthcare_data,zushealth|zus
+Tempus,healthcare_data,tempus
+Truveta,healthcare_data,truveta
+Innovaccer,healthcare_data,innovaccer
+Solace Health,healthcare_data,solace|solacehealth
+Kyra Health,healthcare_data,kyrahealth|kyra
+Watershed,climate_ag_data,watershed|watershedclimate
+Tomorrow.io,climate_ag_data,tomorrow|tomorrowio
+Jupiter Intelligence,climate_ag_data,jupiterintel|jupiter
+Pachama,climate_ag_data,pachama
+Regrow Ag,climate_ag_data,regrow|regrowag
+Farmers Business Network,climate_ag_data,farmersbusinessnetwork|fbn
+Arable,climate_ag_data,arable|arablelabs
+Semios,climate_ag_data,semios
+Bushel,climate_ag_data,bushel
+Conservation Metrics,climate_ag_data,conservationmetrics
+IPinfo,misc_data_product,ipinfo
+Ohr,misc_data_product,ohr
+Well,misc_data_product,well|wellco
+Chronograph,misc_data_product,chronograph
+Biobase,misc_data_product,biobase
+Foxglove,misc_data_product,foxglove

@@ -1,0 +1,19 @@
+[
+  "ats",
+  "company",
+  "coords.0",
+  "coords.1",
+  "first_seen",
+  "is_recruiter",
+  "location",
+  "remote",
+  "salary.median",
+  "salary.n",
+  "salary.p25",
+  "salary.p75",
+  "scraped_at",
+  "skill_level",
+  "title",
+  "updated_at",
+  "url"
+]
