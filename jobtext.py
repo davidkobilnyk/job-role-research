@@ -182,11 +182,17 @@ def description_lines(source: str, payload: dict) -> list[tuple[str, bool]]:
             return html_to_lines(payload["descriptionHtml"])
         return plain_to_lines(payload.get("descriptionPlain") or "")
     if source == "lever":
+        # Lever splits the description into an optional intro (opening) and the body; descriptionPlain is
+        # both concatenated. Include the intro and the body; don't stop at the intro.
         out: list[tuple[str, bool]] = []
         if payload.get("openingPlain"):
             out.append(("About", True))
             out += plain_to_lines(payload["openingPlain"])
-        elif payload.get("descriptionPlain"):
+        if payload.get("descriptionBody"):
+            out += html_to_lines(payload["descriptionBody"])
+        elif payload.get("descriptionBodyPlain"):
+            out += plain_to_lines(payload["descriptionBodyPlain"])
+        elif not payload.get("openingPlain") and payload.get("descriptionPlain"):
             out.append(("About", True))
             out += plain_to_lines(payload["descriptionPlain"])
         for lst in payload.get("lists") or []:
