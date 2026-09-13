@@ -1,0 +1,22 @@
+# Data and generated output — not committed
+*.txt
+*.json
+*.jsonl
+*.csv
+*.db
+*.sqlite
+eval_runs/
+
+# Python
+.venv/
+__pycache__/
+
+# Exceptions: keep these tracked
+!ai-job-fit-flags-evals.json
+!.claude/settings.json
+!results.json
+!companies.csv
+!ats_jobs.jsonl
+!ats_jobs.extracted.jsonl
+!posts.jsonl
+!*_schema.txt

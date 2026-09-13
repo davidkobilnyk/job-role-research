@@ -5,7 +5,10 @@
       "allowedDomains": [
         "hn.algolia.com",
         "remotive.com",
-        "remoteok.com"
+        "remoteok.com",
+        "api.anthropic.com",
+        "pypi.org",
+        "files.pythonhosted.org"
       ]
     }
   }
