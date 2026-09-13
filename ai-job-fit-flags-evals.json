@@ -1,0 +1,231 @@
+{
+  "skill_name": "ai-job-fit-flags",
+  "evals": [
+    {
+      "id": 1,
+      "name": "1mind-customer-solutions",
+      "prompt": "Assess this job description for fit and return the flags.\n\nCustomer Solutions Engineer, AI Agents\n\nThis is a fully remote opportunity and can be worked from any location in the United States.\n\nABOUT US\n1mind is building the next generation of revenue teams. We are creating a new category of enterprise software: Autonomous Customer Experience. Our platform deploys Superhumans, go-to-market teammates with a face, a voice, and a GTM brain that serve the buyer across the entire journey with one continuous memory.\n\nABOUT THE ROLE\nAs an Agent Architect at 1mind, you are the master orchestrator of our AI Superhumans. You don't just \"onboard\" customers; you design the digital consciousness and operational framework that allows our AI to integrate seamlessly into a customer's ecosystem.\nThis is a hybrid role requiring a key blend of technical engineering, systems thinking, and consultative leadership. You will be the primary technical guide for our customers, taking them from a conceptual vision to a fully activated, high-performing AI workforce. You will map complex workflows, configure intricate agent behaviors, and ensure our Superhumans are transformative team members for our clients.\n\nWHAT YOU'LL DO\n- Architect Superhuman Activation: Lead the technical discovery and \"blueprint\" phase for new customers, mapping their existing business systems to our AI framework\n- System Mapping & Integration: Design and implement the data flows between 1mind agents and client tech stacks (CRMs, MAPs, APIs, and proprietary databases)\n- Experiential Configuration: Fine-tune Superhuman experiential elements such as visualizations, logic gates, and response triggers\n- Customer Consultation: Serve as the technical face of the services team, guiding stakeholders through the activation journey and translating complex technical hurdles into clear, actionable outcomes\n- Quality Assurance & Optimization: Conduct rigorous testing of agent behaviors pre & post-deployment to ensure peak performance and reliability\n- Feedback Loop: Partner with Product and Engineering teams to advocate for new features and platform enhancements based on real-world activation challenges\n\nWHAT YOU'LL BRING\n- 3 - 5+ years in a technical, customer-facing role (e.g., Solutions Architect, Implementation Engineer, or Technical Account Manager) within a SaaS environment\n- Proven track record of system integration: You should be comfortable working with REST APIs, webhooks, and middleware\n- Background in Workflow Design: Experience mapping complex business processes using tools like LucidChart, Miro, or Visio\n- Client Management: Experience managing high-stakes projects for enterprise-level stakeholders, specifically during the \"onboarding\" or \"activation\" lifecycle\n\nWHAT WILL HELP YOU THRIVE\n- The \"Architect\" Mindset: You enjoy zooming out to see the big picture of a system, but you have the discipline to zoom in and fix a broken line of logic\n- High Emotional Intelligence: You can read a room and pivot your communication style from \"deeply technical\" for developers to \"value-driven\" for executive stakeholders\n- Adaptability: You are excited by the \"blank canvas\" of AI and aren't afraid to build the playbook as you go in a fast-evolving industry\n- Relentless Curiosity: You want to understand the \"why\" behind every customer request to build a better \"how.\"\n\nPREFERRED SKILLS\n- AI/ML Literacy: Familiarity with LLM prompt engineering, vector databases, or natural language processing (NLP) concepts\n- Technical Proficiency: Knowledge of Python, JavaScript, or SQL is a major plus for troubleshooting integrations\n- Industry Knowledge: Experience in CX (Customer Experience) or Digital Transformation sectors\n- Project Management: Proficiency with tools like Asana, Jira, or Monday.com to keep multi-phase activations on track\n\nWHY JOIN US\n- Be at the forefront of AI-powered GTM operations\n- Remote-first, fast-moving culture with ownership, autonomy, and impact from day one\n\n1mind's total compensation package is designed to be competitive and includes base salary, equity, and a full range of benefits and perks.",
+      "expected_flags": [
+        "CF",
+        "AMB"
+      ],
+      "optional_flags": [
+        "AGG",
+        "SRX",
+        "CUL",
+        "IND",
+        "ORG"
+      ],
+      "notes": "Customer-facing role plus required customer-facing background (one CF). 'blank canvas' / 'build the playbook' is AMB. Fully remote US stated, so no NRM/GEO. Travel never mentioned, so no TRV. 'impact from day one' could read as AGG; accepted as optional. 'Relentless Curiosity' is optional CUL and 'ownership, autonomy, and impact from day one' is optional IND. 'This is a hybrid role requiring a key blend' describes a blend of skills, not a work location, so NRM would be wrong. 'Agent Architect' appears in the body, not the title, so SR would be wrong. 'Serve as the technical face of the services team' places the role on a Services team, so ORG is optional. (SR check: role names in the body don't count.)",
+      "assertions": [
+        "Output is a single JSON object with exactly one key, 'flags', and nothing else",
+        "Every expected flag code is present",
+        "No code outside expected_flags or optional_flags is present",
+        "Each quote appears verbatim in the job description text",
+        "No code appears more than once"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "name": "1password-enterprise-systems",
+      "prompt": "Assess this job description for fit and return the flags.\n\nSenior Enterprise Systems Engineer, AI Productivity\n\nAbout 1Password\nAt 1Password, we're building the foundation for a safe, productive digital future. Our mission is to unleash employee productivity without compromising security.\n\nAs a Sr Enterprise Systems Engineer, AI Productivity, you'll help teams across 1Password work more efficiently by designing, maintaining, and scaling secure artificial intelligence (AI) and automation solutions. You'll partner with technical and non-technical stakeholders to identify workflow challenges, build practical solutions, and improve how employees use AI-enabled enterprise tools. Reporting into the Manager, Enterprise Tools, this role is based in the United States.\n\nThis is a remote opportunity within the US.\n\nWhat we're looking for:\n- Bring experience in information technology (IT) systems, automation engineering, or enterprise productivity enablement.\n- Design and implement technical solutions using application programming interfaces (APIs), connectors, and low-code/no-code tools.\n- Build and maintain workflow automations that reduce manual effort and improve operational efficiency.\n- Collaborate effectively with technical and non-technical stakeholders to understand challenges and deliver practical solutions.\n- Support cross-functional initiatives and deliver reliable, scalable enterprise solutions.\n\nBonus points for:\n- Experience with AI-enabled productivity platforms, workflow automation tools, or modern integration frameworks such as Glean, Dust, or Workato.\n- Experience working with enterprise collaboration tools and their integrations, including Slack, Notion, Google Workspace, Zoom, or Asana.\n\nWhat you can expect:\n- Manage and configure centralized AI and automation platforms for secure, scalable, and reliable use.\n- Build and maintain AI-powered workflows that streamline operations across teams.\n- Partner with business stakeholders to translate workflow challenges into effective technical solutions.\n- Develop documentation, standards, and best practices for enterprise AI and automation.\n- Provide technical guidance and training to support adoption of AI and automation capabilities.\n\nUSA-based roles only: The annual base salary for this role is between $123,000 USD and $172,000 USD.\n\nOur culture\nAt 1Password, we prioritize collaboration, clear and transparent communication, receptiveness to feedback. That said, 1Password is not for everyone. Our work is demanding, we strive for excellence, and the pace is fast. If you're looking for a place where you can settle into a comfortable routine, this might not be the right fit for you. We're looking for individuals who are proven experts in their fields, as well as those who are highly adaptable, can thrive in ambiguity and through change, are curious, and above all deliver results.\n\nOur approach to remote work\nWe believe in the power of remote work, but recognize that in-person connection is important. While we are a remote-first company, travel for in-person engagement is a part of almost all roles, and we require our employees to be ready and willing to take part. Frequency will depend on role and responsibilities, and may include, but is not limited to: annual department-wide offsites, team meetings, and customer/industry events.\n\nRemote work at 1Password does mean working from your home country.",
+      "expected_flags": [
+        "IT",
+        "ORG",
+        "SR",
+        "AMB",
+        "CUL",
+        "TRV"
+      ],
+      "optional_flags": [
+        "SRX"
+      ],
+      "notes": "Low-code/no-code and IT systems is IT. Reports into Enterprise Tools is ORG. 'Sr' title is SR. 'thrive in ambiguity' is AMB. 'not for everyone' / 'demanding' is CUL. Company-wide required travel including customer/industry events is TRV. Remote within US stated, so no NRM/GEO. 'Develop documentation, standards, and best practices' is optional SRX (SRX can be flagged alongside SR).",
+      "assertions": [
+        "Output is a single JSON object with exactly one key, 'flags', and nothing else",
+        "Every expected flag code is present",
+        "No code outside expected_flags or optional_flags is present",
+        "Each quote appears verbatim in the job description text",
+        "No code appears more than once"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "name": "achira-gpu-research",
+      "prompt": "Assess this job description for fit and return the flags.\n\nMachine Learning Research Engineer (MLRE) - GPUs\nBuild & optimize cutting-edge GNNs and simulation models at scale — pushing GPU limits to transform drug discovery & materials science.\n\nAchira is building best-in-class foundation models to solve the most challenging problems in simulation for drug discovery and beyond. Atomistic Foundation simulation models (FSMs) as world models of the physical microcosm span machine learning interaction potentials (MLIPs), neural network potentials (NNPs), and diverse classes of generative models. We're looking for a rare individual who thrives at the intersection of cutting-edge deep learning architectures and high-performance computing.\n\nYou will help shape the future of molecular machine learning by engineering high-efficiency implementations of advanced architectures for molecular densities, graph neural networks (GNNs) and beyond — pushing past the limits of what's currently possible with today's hardware. Liaise with NVIDIA to represent our needs. Maximize impact, including travel to our SF and NY working groups to collaborate.\n\nRequirements: Engineer with at least two years professional experience in GPU optimization.\n\nAt Achira, we are building a team of world-class scientists, ML researchers, and engineers to work together to move beyond the beaten path in drug discovery. You'll operate at the frontier scale of massive compute, massive data, and massive ambition. You'll own impactful work end-to-end, from ideation to architecture to deployment on distributed infrastructure. We are a well-funded, talent-dense organization that values rigor, speed, execution, and an ownership mindset.",
+      "expected_flags": [
+        "SPC",
+        "LAB",
+        "NRM"
+      ],
+      "optional_flags": [
+        "TRV",
+        "CUL",
+        "IND",
+        "MLY",
+        "CF"
+      ],
+      "notes": "GPU optimization / GNNs is SPC. 'world-class scientists' / 'frontier scale' / 'talent-dense' is LAB. Travel to SF and NY working groups with no remote statement is NRM (hub-city). TRV is optional: working-group travel reads closer to offsites than client travel. 'ownership mindset' is optional CUL. Text is an excerpt reconstructed from mirrors of the posting. 'at least two years professional experience in GPU optimization' is optional MLY. 'Liaise with NVIDIA to represent our needs' is optional CF.",
+      "assertions": [
+        "Output is a single JSON object with exactly one key, 'flags', and nothing else",
+        "Every expected flag code is present",
+        "No code outside expected_flags or optional_flags is present",
+        "Each quote appears verbatim in the job description text",
+        "No code appears more than once"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "name": "acorns-senior-ai-team",
+      "prompt": "Assess this job description for fit and return the flags.\n\nSenior Backend Engineer, AI Team\n\nAcorns is seeking a Senior Software Engineer to join our AI team! Join Acorns as we build the future of Fintech with a customer service virtual agent that's as empowering as our mission. You will harness the power of AI to design a virtual agent that redefines customer support by providing personalized, real-time assistance.\n\nAcorns is a remote-first organization, offering the flexibility to work remotely while providing optional access to office space in Irvine, CA.\n\nWhat you will do at Acorns:\n- Review and analyze proprietary datasets, existing Vector database architecture, pipelines, and tools to identify gaps and propose improvements.\n- Contribute to key customer-facing projects, debugging and enhancing models, scaling pipelines, and delivering the virtual support bot MVP to production.\n- Collaborate with cross-functional teams to align AI efforts with business goals, mentor junior team members, and drive innovation through LLM capabilities.\n- Optimize data pipelines, establish scalable monitoring processes, and develop a roadmap for innovation aligned with fintech objectives.\n\nWhat you will bring to Acorns:\n- Bachelor's or Master's Degree in Computer Science, Software Engineering, Data Science, Statistics, or a STEM-related field\n- 5+ years of total software engineering experience\n- 3+ years of experience in artificial intelligence, data science, or machine learning engineering\n- 3+ years of experience with modern cloud computing technologies, such as AWS, Bedrock, Sagemaker, Databricks, or Kubernetes\n- Foundational knowledge with Generative AI, Transformer, fine tuning LLM, Search ranking, RAG improvement, and LLM Agent\n- Experience tuning neural networks on custom datasets.\n- Experience with Huggingface, LangChain, chatbot development\n- Proficiency in programming languages and analytical tools, such as Python or PyTorch, Pandas, NumPy, SciKit-Learn, Matplotlib\n- Hunger to deliver game-changing products\n- Exceptional drive and precision in delivery\n\nYou are not expected to have experience with all listed requirements.\n\nManagement Principles:\n- Managers are constantly raising the bar\n- No surprises - Managers give and receive feedback early and often\n\nOur values: Find a way - Never settle, no excuses, nothing is impossible. Just make it happen\n\nCompensation: The pay range for this position is expected to be between $184,500 and $217,100/year. If hired, employee will be in an \"at-will position\" and the Company reserves the right to modify base salary at any time.",
+      "expected_flags": [
+        "SR",
+        "MLY",
+        "CUL",
+        "SRX",
+        "SPC"
+      ],
+      "optional_flags": [],
+      "notes": "'Senior' title is SR; 'mentor junior team members' / 'develop a roadmap' is SRX, flagged alongside SR. '3+ years in AI, data science, or ML engineering' is MLY. 'Hunger' / 'never settle, no excuses' / 'constantly raising the bar' is CUL. '3+ years of experience with modern cloud computing technologies, such as AWS, Bedrock, Sagemaker, Databricks, or Kubernetes' is SPC (years in cloud/ML platforms outside the profile). LLM: no years or 'production' attached to LLM wording, so not expected. Remote-first with optional office is fully remote, so no NRM. 'Contribute to key customer-facing projects' is building a customer-facing product, not customer-facing work, so CF would be wrong. 'optional access to office space in Irvine, CA' on a remote-first role is not NRM.",
+      "assertions": [
+        "Output is a single JSON object with exactly one key, 'flags', and nothing else",
+        "Every expected flag code is present",
+        "No code outside expected_flags or optional_flags is present",
+        "Each quote appears verbatim in the job description text",
+        "No code appears more than once"
+      ],
+      "files": []
+    },
+    {
+      "id": 5,
+      "name": "built-robotics-cv",
+      "prompt": "Assess this job description for fit and return the flags.\n\nAI & ML Engineer\n\nWHO WE ARE\nBuilt Robotics' mission is to build the robots that build the world. By automating repetitive tasks in the $300 billion solar industry, Built is bridging the workforce gap to accelerate our transition to clean energy.\n\nWHAT YOU'LL DO\n- Design and develop edge machine learning systems that improve the autonomy and safety of our construction robots\n- Build scalable ML infrastructure for model training, validation, deployment, and monitoring\n- Develop and optimize computer vision and sensor fusion models for construction environments\n- Analyze large-scale operational datasets to improve model performance and reliability\n- Improve object recognition, scene understanding, and autonomous decision-making systems\n- Integrate cloud-based commercial and open-source AI tools into our autonomy stack\n\nYOUR QUALIFICATIONS\n- BS, MS, or PhD in computer science, artificial intelligence, machine learning, robotics, or related field\n- 3+ years of experience building and deploying machine learning systems\n- Expertise in Python and ML frameworks such as PyTorch or TensorFlow\n- Experience building distributed ML training systems and data pipelines\n- Robotics or autonomous systems experience is a plus\n\nCOMPANY PERKS\n- Competitive salary and equity\n- 100% employer-sponsored health, dental and vision insurance\n- 401(k) with employer matching\n- Paid holidays and flexible PTO\n- TSA PreCheck\n- Gym membership\n- Free catered lunch and plenty of snacks\n- A pair of steel-toe boots\n\nThe starting annual base salary range for this role is $140,000 to $185,000.",
+      "expected_flags": [
+        "SPC",
+        "MLY",
+        "NRM"
+      ],
+      "optional_flags": [
+        "TRV"
+      ],
+      "notes": "Computer vision, sensor fusion, distributed ML training infrastructure is SPC. '3+ years building and deploying machine learning systems' is MLY. No remote statement plus catered lunch, gym, steel-toe boots is NRM. TSA PreCheck hints at travel but nothing states travel is required, so TRV is optional.",
+      "assertions": [
+        "Output is a single JSON object with exactly one key, 'flags', and nothing else",
+        "Every expected flag code is present",
+        "No code outside expected_flags or optional_flags is present",
+        "Each quote appears verbatim in the job description text",
+        "No code appears more than once"
+      ],
+      "files": []
+    },
+    {
+      "id": 6,
+      "name": "bjakcareer-applied-ai-heldout",
+      "prompt": "Assess this job description for fit and return the flags.\n\nApplied AI Engineer\n\nAbout ActAI\nThere are over 5 billion users using basic applications today such email, notes, tasks, calendar and they're not AI-native. Our mission is to build proactive applications for anyone in the world, who are not used to complex prompting. We aim to bring intelligence to conversations, errands, organising and workflows, with minimal to no prompting.\nOur product focuses on achieving high reliability for long-running workflows, persistent context, and real-world task completion. We believe products will greatly reduce hallucinations.\nOur objective is to organise anyone's life, allowing us all to spend time on valuable and meaningful things.\nRole\nAs an Applied AI Engineer, you will turn model capabilities into real product behavior. You will own problems end-to-end, from shaping model behavior, to building the systems around it, to ensuring it performs reliably in production.\nThis role sits at the intersection of machine learning, systems, and product, focusing on making AI actually work for users, not just in demos, but in real-world usage.\nFocus\nBuild and ship AI features end-to-end (model → system → user experience)\nDesign and iterate on prompts, tools, memory, and agent workflows\nTurn raw model outputs into structured, reliable, and predictable behaviors\nDebug issues across the full stack (model, orchestration, infra, UX)\nOptimize for latency, cost, and production reliability\nDevelop lightweight evaluation frameworks to measure real-world performance\nWork closely with product and engineering to translate ambiguous problems into working systems\nTech Stack\nPython\nPyTorch / JAX\nLLMs (OpenAI-style APIs, LLaMA, Qwen, etc.)\nInference / serving (e.g. vLLM)\nVector DB\nIdeal Experience\nStrong foundation in machine learning and modern neural network architectures.\nHands-on experience with training, fine-tuning, or deploying ML models\nAbility to write clean, production-quality code\nComfort working across abstraction layers (model → infra → product)\nStrong problem-solving skills in ambiguous, fast-moving environments\nBias toward shipping, iteration, and continuous improvement\nOutcomes\nML models in production meet expected accuracy, latency, and reliability targets.\nProduction issues are identified quickly, debugged effectively, and root causes addressed.\nData pipelines, training loops, and inference systems are robust, reproducible, and maintainable.\nCollaborates effectively with engineers, product, and research teams to deliver reliable ML-powered features.\nIterations on models and systems are driven by real-world signals and measurable improvements.\nHow We Work\nThe best products today in the world were built by small, world class teams. We make decisions collectively, move at rapid speed, striking a balance between shipping high quality work and learning. Joining our team requires the ability to bring structure, exercise judgment, and execute independently. Our goal is to put in hands of our users a truly magical AI product.\nInterview process\nIf there appears to be a fit, we'll reach to schedule 3, but no more than 4 interviews.\nApplications are evaluated by our technical team members. Interviews will be conducted via virtual meetings and/or onsite.\nWe value transparency and efficiency, so expect a prompt decision. If you've demonstrated the exceptional skills and mindset we're looking for, we'll extend an offer to join us. This isn't just a job offer; it's an invitation to be part of a team that's bringing AI to have practical benefits to billions globally.",
+      "expected_flags": [
+        "AMB",
+        "IND"
+      ],
+      "optional_flags": [
+        "SPC"
+      ],
+      "notes": "HELD-OUT. Tests the NRM and requirement-code fixes. 'Strong problem-solving skills in ambiguous, fast-moving environments' is AMB; 'execute independently' is IND. NRM would be wrong: 'Interviews will be conducted via virtual meetings and/or onsite' is about interviews, and the post never states a work location. LLM would be wrong: 'ML models in production meet expected accuracy...' is an outcome the job delivers, not a requirement, and no LLM years or production-LLM experience is required. SPC is optional: 'Hands-on experience with training, fine-tuning, or deploying ML models' has no years attached, but the stack (PyTorch/JAX, training loops) leans specialist. LAB would be wrong: 'small, world class teams' describes product teams, not a research lab.",
+      "assertions": [
+        "Output is a single JSON object with exactly one key, 'flags', and nothing else",
+        "Every expected flag code is present",
+        "No code outside expected_flags or optional_flags is present",
+        "Each quote appears verbatim in the job description text",
+        "No code appears more than once"
+      ],
+      "files": [],
+      "held_out": true,
+      "labels": "confirmed",
+      "source_url": "https://jobs.ashbyhq.com/bjakcareer/2410bf26-de9e-471b-9a2c-5bfa2cad4d00"
+    },
+    {
+      "id": 7,
+      "name": "block-labs-applied-ai-heldout",
+      "prompt": "Assess this job description for fit and return the flags.\n\nApplied AI Engineer\n\nAbout Block Labs\nBlock Labs is a premier technology studio operating at the bleeding edge of Web3, Artificial Intelligence, and iGaming. We don't just ship features; we engineer high-scale, production-grade platforms that power the next generation of digital products.\nWe are a collective of senior engineers, product strategists, and builders who refuse to compromise on architecture. Whether we are designing autonomous multi-agent AI systems, building decentralized financial infrastructure, or architecting high-frequency iGaming platforms, our standard is excellence.\nWe move fast, but we build for the long term. If you are looking to work alongside a team that values deep technical expertise, thoughtful system design, and product ownership, Block Labs is where you belong.\nThe Role\nWe are investing in governed AI agents that work directly with our customers and internal teams. Data & Intelligence now sits at the centre of several products we are developing, and the platform we have built is ready to carry more advanced intelligence: real-time decisioning, predictive modelling, and governed AI agents.\nThis role reflects that shift. Our decision engine is governed by a formal decision register: over 100 decisions across 15 platform modules, spanning real-time risk gates, reward and engagement orchestration, payment routing, treasury alerting, and responsible gambling interventions. Humans set objectives, budgets and approval gates; AI and ML models author, score, simulate and optimise within them; the engine executes deterministically inside approved boundaries and logs everything. As an AI Engineer on the Intelligence team, you are the product engineer of the data and agent platform. You build production agents that answer real business questions and, as they earn autonomy, act with real customers and real money: grounded, auditable, secured against adversarial input, and gated by human approval where the stakes demand it. And you build the intelligence underneath and around them: the models and analyses that power decisions, and the dashboards where the business sees and steers everything, on a platform where a wrong decision can move money and every decision must be reconstructable.\nKey Responsibilities:\nYour first deliverable is a production SQL BI analyst agent: a Slack-native agent that answers business questions with governed SQL over the analytical warehouse, with validated queries, sanity-checked results, and cited evidence behind every number. From there, the role balances four crafts in roughly equal measure: AI agents, machine learning, data science, and the dashboards and surfaces that expose them.\nAI Agents\n• Build and own analyst agents end to end: Slack-native agents that translate natural-language business questions into governed SQL over the analytical warehouse, answer executive P&L questions, post daily health briefings, and explain metric movements with data-backed root cause analysis; guarded by SQL and schema validation, result sanity checks, and cross-checks of daily metrics against canonical reporting views.\n• Extend into customer-facing agents: intent triage and routing, retrieval-grounded (RAG) responses over versioned knowledge bases with strict abort-and-escalate fallbacks, multi-turn conversational state machines, localized brand voice, and escalation logic; integrated with our helpdesk and CRM platforms (webhook ingestion, session lifecycle management, intent metadata tagging, automated escalation tickets with pre-packaged tool context).\n• Build the risk-stratified tool layer between agents and back-office APIs: read-only context-gathering tools, information-first validation before any action, multi-turn confirmation workflows, and a per-tool switch that moves low-risk mutations from lead approval to fully autonomous execution as evidence accumulates. Harden agents against adversarial input: prompt injection screening, confidence-threshold freezes on sensitive intents, silent security escalation paths, and defences against tool misuse and data exfiltration.\n• Build agents up the autonomy ladder using LangGraph, the Anthropic Agent SDK / Model Context Protocol (MCP), or equivalent orchestration frameworks. Engineer the closed feedback loop (corrections capture, proven-query and semantic memory), decision audit logging, and evaluation harnesses, including regression suites proving new tools or intents introduce zero degradation to existing paths.\nMachine Learning\n• Build and productionise the models behind the platform's decision signals: churn, lifetime value, and bonus-sensitivity models for engagement; composite player risk scores across identity, payment, gameplay, bonus, and network signals; collusion, bot-play, and multi-accounting detection; and anomaly detection for treasury and payments.\n• Ship models as governed signals, not notebooks: versioned, SLA'd contracts with the decision engine and your agents, with freshness, drift, and calibration monitoring and automated retraining paths, served across real-time (Kafka/MSK), near-real-time, and batch (ClickHouse) tiers.\nData Science\n• Own multi-vector withdrawal risk scoring: per-vector scores with cited rationale and confidence, evidence-aware aggregation, and automatic re-scoring when late evidence lands.\n• Codify business rules with domain owners and keep policy auditable: translate policy into deterministic, configurable rules; simulate and backtest every rule or threshold change against historical data before activation; design holdouts and control groups to measure true uplift; and run the deep-dive analyses that feed both your agents and the executive team.\nDashboards & Surfaces\n• Build the supervisor and approval surfaces for your agents: review queues with one-click action proposal cards for high-risk mutations, searchable session replay exposing prompts, model outputs, reasoning chains, and tool calls, and a structured grading module whose output feeds evaluation and fine-tuning datasets.\n• Design and ship the dashboards through which the business consumes your work: decision audit views, agent performance dashboards (correction rate, failure rate, decision volume by rule and vector), risk review queues, and KPI views built with the BI team, moving dashboarding toward AI-assisted anomaly detection and explanation.\nAbout You:\n• 4+ years of experience in software, data science, or machine learning engineering, including 1+ years building LLM-powered agents in production: tool use and function calling, structured outputs, retrieval and memory, and multi-step orchestration with frameworks such as LangGraph or the Anthropic Agent SDK.\n• You have shipped a production RAG system and can talk concretely about grounding, chunking and retrieval quality, hallucination control, and when to refuse to answer.\n• You treat customer-facing agents as an attack surface: you can explain how you would defend against prompt injection, tool-call abuse, and data leakage through model outputs.\n• Production ML lifecycle ownership: feature engineering, training, serving, monitoring, and retraining. Fraud, risk, or abuse detection experience is a strong signal: imbalanced classes, adversarial users, and cost-asymmetric decisions.\n• Statistical rigour: experiment design, holdouts and control groups, uplift measurement, and score calibration; you can defend a threshold choice to a compliance officer as comfortably as to an engineer.\n• Evaluation discipline for non-deterministic systems: you have built evaluation harnesses and regression suites and caught quality drift before your users did.\n• Strong Python for production services, comfort in TypeScript for the review and approval surfaces you will ship, and strong SQL skills on columnar analytical databases (ClickHouse preferred).\n• Able to take your own work to a stakeholder-ready surface: review queues, approval interfaces, dashboards, and lightweight internal apps, using a front-end framework or tools such as Streamlit. You do not wait for another team to make your work visible.\n• Experience designing systems where model outputs feed deterministic execution, keeping that boundary clean (models score, suggest, and draft; governed logic decides), with LLM observability and tracing (Langfuse, LangSmith, or similar) and ownership of what you ship, including when it breaks.\nNice to Have\n• Experience in iGaming or other high-trust, transaction-intensive environments where security, fraud prevention, auditability, traceability, data integrity, and robust operational controls are core engineering requirements.\n• Helpdesk or CS-platform integration experience (Intercom, Zendesk, or similar): webhooks, conversation APIs, agent-assist, or full automation.\n• Exposure to blockchain or crypto-native transaction flows, including on-chain data, wallet clustering, or stablecoin settlement.\n• Experience with constrained optimisation, bandits, or reinforcement learning applied within hard business constraints (budgets, caps, exclusion lists).\n• Experience with rule engines or decision-management systems, and Slack app development.\n• Event-driven and streaming experience: Kafka or MSK consumers, idempotent processing, and failure handling.\nHow We Work\n• Fully remote with asynchronous-first communication. EU timezone overlap is preferred.\n• Small, high-autonomy Intelligence team within the Data function. You report to the Head of Data and coordinate with the AI, BI, and Infrastructure Teams and, for customer-facing agents, with the Head of CS and the product squads whose platforms your agents serve.\n• Architecture decisions are documented and debated. You will participate in design reviews and own your domain decisions.\n• Autonomy is earned by evidence. Models and agents start in propose-only, human-gated mode and graduate one level at a time, backed by simulation and outcome data.\n• We build for multi-tenant scale from day one. What you ship for one operator must absorb the next without additional engineering effort.\nWhat kind of culture can I expect?\nMature, mission-driven, and low-ego. We value clarity over noise, outcomes over theatrics, and pace without chaos. If you’re one of the smartest minds in your craft and want to build with other experts, you’ll feel at home here.",
+      "expected_flags": [
+        "LLM",
+        "MLY"
+      ],
+      "optional_flags": [
+        "SRX",
+        "IND",
+        "GEO",
+        "SPC",
+        "CUL",
+        "AGG"
+      ],
+      "notes": "HELD-OUT. Tests the CF fix. '1+ years building LLM-powered agents in production' is both LLM (production + years) and MLY (a stated number of years in AI). CF would be wrong: the engineer builds customer-facing agents but doesn't work with customers; coordinating with the Head of CS is internal. ORG would be wrong: the team sits in the Data function and reports to the Head of Data. Optional: GEO ('EU timezone overlap is preferred' is a preference, not a restriction), IND ('Small, high-autonomy Intelligence team' / 'You do not wait for another team'), SRX ('own your domain decisions'), SPC (production ML lifecycle incl. training, fraud/risk models, no years), CUL ('refuse to compromise'), AGG ('Your first deliverable is a production SQL BI analyst agent', no timeline).",
+      "assertions": [
+        "Output is a single JSON object with exactly one key, 'flags', and nothing else",
+        "Every expected flag code is present",
+        "No code outside expected_flags or optional_flags is present",
+        "Each quote appears verbatim in the job description text",
+        "No code appears more than once"
+      ],
+      "files": [],
+      "held_out": true,
+      "labels": "confirmed",
+      "source_url": "https://jobs.ashbyhq.com/block-labs/c1594e88-f963-4438-998e-17327b2d9dec"
+    },
+    {
+      "id": 8,
+      "name": "aerovect-mlops-heldout",
+      "prompt": "Assess this job description for fit and return the flags.\n\nSoftware Engineer, ML Ops\n\nWho We Are\nAeroVect is transforming ground handling with autonomy, redefining how airlines and ground service providers around the globe run day-to-day operations. We are a Series A company backed by top-tier venture capital investors in aviation and autonomous driving. Our customers include some of the world’s largest airlines and ground handling providers. For more information, visit www.aerovect.com.\nYou will\nBuild and maintain data pipelines to ingest field data (rosbags, sensor logs, telemetry) from our fleet\nConvert raw field data into curated, versioned datasets for the perception team and own dataset management - storage, indexing, querying, and vending datasets\nSet up training workflows and optimize cloud costs\nBuild tooling to accelerate perception engineers' workflows - fast data access, reproducible experiments, automated evaluation pipelines\nGenerate metrics and diagnostics to track dataset health, model performance, and pipeline reliability\nYou have\nBachelor's or Master's degree in Computer Science, Robotics, Data Engineering, or a related field\nStrong Python proficiency and working knowledge of ROS2\nWorking knowledge of docker and other DevOps tools\nFamiliarity with cloud storage and compute (AWS - S3, EC2, etc.)\nUnderstanding of ML workflows and dataset versioning\nWe Prefer\nMaster's in Computer Science, Robotics, or a related discipline\n2+ years of MLOps or data infrastructure experience, ideally in robotics or autonomous systems\nExperience with Weights & Biases, rosbag data, and large-scale sensor datasets\nWorking knowledge of C/C++\nExperience supporting perception or ML research teams\nPlease note this role will be based onsite in Toronto",
+      "expected_flags": [
+        "GEO",
+        "NRM"
+      ],
+      "optional_flags": [
+        "MLY",
+        "SPC"
+      ],
+      "notes": "HELD-OUT. Tests the SPC fix. 'this role will be based onsite in Toronto' is both NRM (onsite) and GEO (non-US). SPC is optional: '2+ years of MLOps or data infrastructure experience, ideally in robotics or autonomous systems' is a stated number of years that overlaps MLY, and the work is robotics sensor data. It should not come from 'Working knowledge of docker and other DevOps tools' (no years), but the checker can't tell which quote was used. DEG would be wrong: a bachelor's is accepted and the master's is only preferred. MLY is optional: '2+ years of MLOps or data infrastructure experience' is under 'We Prefer', not required.",
+      "assertions": [
+        "Output is a single JSON object with exactly one key, 'flags', and nothing else",
+        "Every expected flag code is present",
+        "No code outside expected_flags or optional_flags is present",
+        "Each quote appears verbatim in the job description text",
+        "No code appears more than once"
+      ],
+      "files": [],
+      "held_out": true,
+      "labels": "confirmed",
+      "source_url": "https://jobs.ashbyhq.com/aerovect/701fa96b-d96a-4664-901a-cf4ce951726c"
+    },
+    {
+      "id": 9,
+      "name": "allocate-mle-heldout",
+      "prompt": "Assess this job description for fit and return the flags.\n\nMachine Learning Engineer\n\nAbout Allocate\nAllocate is transforming private market investing by enabling RIAs and family offices to seamlessly discover, model, and manage their private market exposure. Our platform combines curated fund and co-investment opportunities with institutional-grade infrastructure. Through a single, data-rich digital experience, clients access top-tier opportunities across venture capital, private equity, private credit, and other private asset classes—backed by powerful tracking, analytics, and administration tools.\nAbout the Role\nAllocate is looking to add an AI / Extraction Engineer to the team! There's a lot for us to build, and we need a strong engineer with a broad skillset who can jump right in to help us lay the technical foundation for the company's future.\nEssential Responsibilities and Duties\nBuild, train, and improve machine-learning models for production use.\nDevelop evaluation and feedback loops that measurably improve model performance over time.\nStand up the tooling to measure, monitor, and track model quality.\nEvaluate new models and techniques, and bring the best into production.\nCollaborate cross-functionally to ship ML-powered capabilities.\nMust Have Experience\n4+ years of applied ML / LLM engineering in production, with strong Python.\nExperience taking models from prototype to reliable production systems.\nHands-on model fine-tuning and rigorous evaluation discipline.\nProficiency with Git and version control systems.\nHands-on experience with AI-assisted development tools such as Claude Code, OpenAI's Codex, or Cursor, and a demonstrated ability to incorporate new tools as they emerge.\nNice to Haves\nApplied NLP, computer vision, or multimodal models.\nMLOps and model-monitoring tooling.\nBackground in fintech or financial data.\nEducation\nBachelor's degree in Computer Science, a similar technical field, or equivalent practical experience.\nEssential Values & Culture\nProviding our clients with a world-class experience is our number one priority. We obsessively search for ways to improve the experience for our clients and partners—extraordinary response times, proactivity, and a top-tier experience in everything from product strategy to offline communications.\nChallenge convention: Instead of detailing all the reasons an idea may not work, we question things to determine how a viable idea may be put into motion.\nCommitment to continuous improvement: We find ways to personally scale each day by pushing ourselves up the learning curve.\nMeritocracy, not politics: We place the utmost value on results and reward through merit, not political agendas.\nCivil Discourse is embraced: Open, intellectually curious conversations are required to consistently arrive at the best decisions. Respect is paramount, but the mission is to get the right answer collectively, not to be right.\nEmbrace technological change: We adopt tools and techniques that make us faster, smarter, and better—especially around AI and automation—and drop outdated methods without hesitation.\nAdditional Details\nLocation: Fully Remote (all I-9 eligible candidates will be considered).\nEmployment: Full-time. Seniority: Senior professional.\nSalary: The expected base salary range for this role is $165,000 to $185,000. Actual compensation will be determined based on the candidate's primary work location and other job-related factors including skills, experience, qualifications, interview performance, internal equity, and market data. Candidates located in higher cost-of-living markets, including the San Francisco Bay Area, may be considered within the higher end of the range. This range reflects base salary only and does not include bonus, equity, or benefits; total compensation may also include a discretionary performance-based bonus.\nBenefits: Medical, dental, and vision; 401(k); and responsible vacation time (PTO).\nTravel required for team and department offsites. An in-person interview may be required during the process. A broadband internet connection is required. Compliance with Allocate's Code of Ethics is a given for this role.",
+      "expected_flags": [
+        "SR",
+        "MLY",
+        "LLM"
+      ],
+      "optional_flags": [
+        "SPC",
+        "AGG",
+        "SOLO",
+        "CUL"
+      ],
+      "notes": "HELD-OUT. Tests SR as a backstop for the seniority filter (jobs.seniority missed this one). 'Seniority: Senior professional' is SR even though the title is plain. '4+ years of applied ML / LLM engineering in production' is MLY (years in ML) and LLM (years + production). TRV would be wrong: 'Travel required for team and department offsites' is offsite travel, which doesn't count. NRM would be wrong: 'Fully Remote'; 'An in-person interview may be required' is about interviews. DEG would be wrong: bachelor's or equivalent experience. CF would be wrong: 'client experience' is company values, not the engineer's job. Optional: SPC ('Hands-on model fine-tuning', no years), AGG ('jump right in'), SOLO ('lay the technical foundation for the company's future'), CUL ('We obsessively search for ways to improve').",
+      "assertions": [
+        "Output is a single JSON object with exactly one key, 'flags', and nothing else",
+        "Every expected flag code is present",
+        "No code outside expected_flags or optional_flags is present",
+        "Each quote appears verbatim in the job description text",
+        "No code appears more than once"
+      ],
+      "files": [],
+      "held_out": true,
+      "labels": "confirmed",
+      "source_url": "https://jobs.ashbyhq.com/allocate/5f38e98e-f3fb-41ff-90c7-eff621c8d7fc"
+    }
+  ]
+}
